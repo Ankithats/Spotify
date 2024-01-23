@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<h1 class="pl"><u>Spotify Playlist</u></h1>
+<div class="why">
+    <div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/why.jpg' %}" data-speed="0.8"></div>
+    <div class="container">
+    
+        <div class="row why_row">
+            
+            <!-- Why item -->
+            {% for i in data %}
+            <div class="col-lg-2 why_col">
+                <div class="why_item">
+                    <div class="why_image">
+                        <img src="{{i.image.url}}" alt="">
+                        
+                    </div>
+                    <div class="why_content text-center">
+                        <div class="why_title">{{i.name}}</div>
+                        <div class="why_text">
+                            <p>{{i.feat}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+           
+        
+        </div>
+    </div>
+
+    <div class="container-fluid ist">
+        <div class="fea">
+        <div class="container laast">
+          <h6 class="com">COMPANY</h6>
+          <h6>About</h6>
+          <h6>Jobs</h6>
+          <h6>For the Record</h6>
+        </div>
+        <div class="container laast">
+          <h6 class="comm">COMMUNITIES</h6>
+          <h6>For Artists</h6>
+          <h6>Developers</h6>
+          <h6>Investors</h6>
+          <h6>Vendors</h6>
+        </div>
+        
+        
+        <div class="container laast">
+            <h6 class="cs">USEFUL LINKS</h6>
+            <h6>Support</h6>
+            <h6>Web Player</h6>
+            <h6>Free Mobile App</h6>
+        
+        </div>
+        </div>
+        </div>
+        
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,274 @@
+
+body{
+    background-color: black;
+}
+.lg{
+    margin-left: 1%;
+}
+
+
+.sd{
+    background-color: rgb(0, 0, 0);
+  
+}
+.bd{
+    background-color: rgba(16, 16, 16, 0.943);
+    border-radius: 2%;
+    padding-top: 10;
+    height: 900px;
+  
+}
+
+   
+.nn{
+    width: 100%;
+    padding-right: 70%;
+    margin-left: 30%;
+    background-color: #050505;
+
+}
+.ff{
+    padding-top: 40%;
+    margin-top: 40%;
+}
+.why
+{
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 113px;
+}
+.why .section_subtitle,
+.why .section_title
+{
+	color: hwb(0 100% 0%);
+}
+.why_row
+{
+	margin-top: 0px;
+   
+    
+}
+.why_item
+{
+	width:110%;
+    padding: 10%;
+	background: #0c0b0e;
+    margin-top:0%;
+    margin-left: 20%;
+    border-radius: 3%;
+    margin-bottom: 110%;
+    height: 300px;
+}
+.why_image :hover{
+    padding: 5%;
+    
+}
+
+
+.why_image
+{
+	width: 100%;
+
+}
+.why_image img
+{
+	max-width: 100%;
+    padding-left: 2%;
+}
+/* .why_content
+{
+	padding-top: 48px;
+	padding-bottom: 55px;
+	padding-left: 35px;
+	padding-right: 35px;
+} */
+.why_title
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	color: #e0e0e0;
+	line-height: 1.1;
+}
+.why_text
+{
+	margin-top: 20px;
+    color: #e0e0e0;
+}
+.one{
+    background-color:  rgba(16, 16, 16, 0.943);
+    height: 300px;
+    margin-top: 2%;
+    margin-left: 3%;
+    border-radius: 5%;
+
+}
+.two{
+    background-color:  rgba(16, 16, 16, 0.943);
+    height: 580px;
+    margin-top: 3%;
+    margin-left: 3%;
+    border-radius: 5%;
+}
+.ft{
+    background-image: linear-gradient(to right, rgb(237, 51, 160) , rgb(169, 71, 211),rgb(72, 162, 227));
+    height: 70PX;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-18 {
+    align-items: center;
+    background-color: #eff2f6;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #050505;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: rgb(255, 255, 255);
+    color: #090808;
+  }
+  
+  .button-18:active {
+    background: #ffffff;
+    color: rgba(8, 7, 7, 0.7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+  .button-17 {
+    padding-top: 5%;
+    margin-top: 10%;
+    align-items: center;
+    appearance: none;
+    background-color: #fff;
+    border-radius: 24px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: currentcolor;
+    font-family: "Google Sans",Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: .25px;
+    line-height: normal;
+    max-width: 100%;
+    overflow: visible;
+    padding: 2px 24px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    will-change: transform,opacity;
+    z-index: 0;
+  }
+  
+  .button-17:hover {
+    background: #F6F9FE;
+    color: #000000;
+  }
+  
+  .button-17:active {
+    box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+    outline: none;
+  }
+  
+  .button-17:focus {
+    outline: none;
+    border: 2px solid #4285f4;
+  }
+  
+  .button-17:not(:disabled) {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):hover {
+    box-shadow: rgba(60, 64, 67, .3) 0 2px 3px 0, rgba(60, 64, 67, .15) 0 6px 10px 4px;
+  }
+  
+  .button-17:not(:disabled):focus {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+  
+  .button-17:not(:disabled):active {
+    box-shadow: rgba(60, 64, 67, .3) 0 4px 4px 0, rgba(60, 64, 67, .15) 0 8px 12px 6px;
+  }
+  
+  .button-17:disabled {
+    box-shadow: rgba(60, 64, 67, .3) 0 1px 3px 0, rgba(60, 64, 67, .15) 0 4px 8px 3px;
+  }
+ .pl{
+    color: #F6F9FE;
+
+  }
+  .p1 :hover{
+   font-size: small;
+  }
+  .ist{
+    background-color: rgba(16, 16, 16, 0.943);
+    height:100px;
+    width:90%;
+    padding: 0;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 1;
+    
+
+    
+}
+.fea{
+    display: flex;
+    width:70%;
+    padding: 5%;
+}
+
+.laast{
+     margin-left:10%; 
+     color:white;
+   
+
+}
+.cre{
+    background-color: #525151;
+    color:white;
+    margin: 5%;
+    height: 150px;
+    border-radius: 3%;
+    padding-left: 3%;
+    
+}
